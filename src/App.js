@@ -1,6 +1,7 @@
 import React,{useEffect, useState} from "react";
 import './App.css';
 import Recipe from "./recipe";
+
 const App = () => {
 
   const [recipes, setRecipes] = useState([]);
@@ -32,8 +33,8 @@ const App = () => {
   return(
     <div className="App">
       <div className="header">
-        <h1>Zaika Foods</h1>
-        <h3>Always eat Healthy and Fresh!</h3>
+        <h1>The Receta</h1>
+        <h3>Know more about what you eat!</h3>
       </div>
       <form onSubmit={getSearch} className='search-form'>
         <input className='search-bar' type="text" value={search} onChange={updateSearch} />

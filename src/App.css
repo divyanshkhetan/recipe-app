@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+
 .App{
   margin: 0px;
   min-height: 100vh;
@@ -29,8 +31,15 @@
 }
 
 .header h1, h3{
-  font-family: Arial, Helvetica, sans-serif;
   margin: 0.2rem;
+  color:#222;
+  color-adjust:inherit;
+}
+
+.header h1{
+  font-family: 'Patua One', cursive;
+  font-size: 3rem;
+  letter-spacing: 0.1rem;
 }
 
 .search-form{
@@ -52,9 +61,10 @@
   background: #e100ff;
   border: none;
   color: black;
-  padding: 10px 20px;
+  padding: 10px 10px;
   border-top-right-radius: 4px;
   border-bottom-right-radius: 4px;
+  font-weight: 800;
 }
 
 .recipes{
